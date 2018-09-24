@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['ngCookies', 'ngRoute', "chart.js"]);
+var app = angular.module('myApp', ['ngCookies', 'ngRoute']);
 
 app.run(function ($rootScope, $location, $cookies) {
     // keep user logged in after page refresh
